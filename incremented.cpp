@@ -11,21 +11,21 @@ public:
     {
         cout<<"Enter the name of the student"<<endl;
         cin>>name;
-        a+=2;
+        b+=2;
     }
     void studentnumber()
     {
         cout<<"Enter the roll number of the student"<<endl;
         cin>>roll_number;
-        a--;
+        b--;
     }
     void showdata()
-    for(j=0;j<a;j++)
+    for(j=0;j<b;j++)
     {
       cout<<"The data of the "<<j<<"th student is "<<obj.name[j]<<" and"<<obj.roll_number<<endl;
     }
 };
-static int a;
+static int b;
 int main()
 {
     int n,i;
